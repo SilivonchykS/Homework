@@ -23,34 +23,19 @@ public class Task31_2 {
         Random random=new Random();
         System.out.println("Wie viel wuerfel spielen: 1 oder 2");
         int amount=scanner.nextInt();
-    while (amount>1&&amount>2){
-        System.out.println("Geben Sie andere Zahl ein");
-        amount=scanner.nextInt();
-        System.out.println("Richtige Zahl");
+        if (amount==1) {
+            System.out.println(1 + random.nextInt(5));
+        }else if (amount==2){
+            System.out.println(1+ random.nextInt(5));
+            System.out.println(1 + random.nextInt(5));
+        }else {
+            System.out.println("I dont have that amount of dice");
+        }
     }
     }
 
 
 
-          //  System.out.println("Geben Sie hier andere Zahl ein:");
 
-      //  int wuerfel =1+ random.nextInt(6-1);
-
-
-
-        /*int number=1+ random.nextInt(100-1);
-        while (true){
-            int input=scanner.nextInt();
-
-            if (number==input){
-                break;
-
-            }else if ((Math.abs(number-input)<=5)){
-                System.out.println("Warm");
-            }else if ((Math.abs(number-input)<=15)){
-                System.out.println("Norm");
-            }else {
-                System.out.println("Kalt");*/
-    }
 
 

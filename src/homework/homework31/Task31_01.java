@@ -17,10 +17,7 @@ public class Task31_01 {
         int number3=scanner.nextInt();
         System.out.println("Geben Sie hier eine Dezimalzahl ein: ");
         double number4=scanner.nextDouble();
-       /* int a =2;
-        double b=2.5;
-        int c=15;
-        double d=15.8;*/
+
         var v=number1*(number2-number4)+number3*number1/number4;
         System.out.println(v);
     }
